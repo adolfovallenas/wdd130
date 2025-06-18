@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Contact Us - Adolfo Company</title>
+    <meta name="description" content="Contact Adolfo Rafting Company for inquiries, reservations, and feedback. Reach us by phone, email, or the contact form below.">
+    <link rel="stylesheet" href="styles/rafting.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"/>
+</head>
+<body>
+    <header>
+        <img src="images/logo.jpeg" alt="Rafting Company Logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="contact-page">
+        <section class="company-info">
+            <h2>Contact Information</h2>
+            <p>📍 Address: 123 River Street, Rapids City, RC 12345</p>
+            <p>📞 Phone: +1 (555) 123-4567</p>
+            <p>📧 Email: info@adolforafts.com</p>
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!..." 
+                width="100%" height="300" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </section>
+
+        <section class="employee-profiles">
+            <h2>Meet Our Team</h2>
+            <div class="profiles">
+                <figure>
+                    <img src="images/employee1.jpg" alt="Employee 1">
+                    <figcaption>Maria – Reservations Manager</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee2.jpg" alt="Employee 2">
+                    <figcaption>Lucas – Adventure Guide</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee3.jpg" alt="Employee 3">
+                    <figcaption>Sofia – Customer Support</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section class="contact-form">
+            <h2>Send Us a Message</h2>
+            <form>
+                <label for="fullname">Name:</label>
+                <input type="text" id="fullname" name="fullname" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <p>Purpose of the message:</p>
+                <label><input type="radio" name="purpose" value="general"> General Inquiry</label>
+                <label><input type="radio" name="purpose" value="reservation"> Reservation Question</label>
+                <label><input type="radio" name="purpose" value="website"> Website Suggestion</label>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <label>
+                    <input type="checkbox" name="subscribe"> Please subscribe me to the monthly newsletter
+                </label>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 | Adolfo Company | Adolfo Vallenas</p>
+        <nav class="socialmedia">
+            <a href="https://www.facebook.com"><img src="images/facebook_icon.webp" alt="Facebook"></a>
+            <a href="https://www.instagram.com"><img src="images/instagram_icon.webp" alt="Instagram"></a>
+            <a href="https://www.x.com"><img src="images/x_icon.webp" alt="X"></a>
+        </nav>
+        <a href="images/contact_wireframe.png">View Contact Page Wireframe</a>
+    </footer>
+</body>
+</html>
